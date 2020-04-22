@@ -87,15 +87,3 @@ The login page will enable users gets registered on the site and receive communi
     - Any DBaaS, such as RDS
 
 ![Arch](brainstorm/10_arch.jpg)
-
-## Site
-Requisites:
-  - NodeJS
-
-How to up the site:
-  - ```cd site```
-  - ```npm install```
-  - ```DEBUG=faasification:* npm start```
-
-Access on browser:
-  - http://[SERVER_ADDRESS or localhost]:80
