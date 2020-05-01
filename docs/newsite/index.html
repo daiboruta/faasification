@@ -515,7 +515,12 @@
           </div>
 
           <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-delay="200">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://xkw3a8hbx0.execute-api.us-east-1.amazonaws.com/Prod/send" method="post" role="form" class="php-email-form">
+              <input type="hidden" name="toEmails" value="['leouesb@gmail.com']"/>
+              <input type="hidden" name="subject" value="Test"/>
+              <input type="hidden" name="message" value="Faas"/>
+              
+                
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validate"></div>
