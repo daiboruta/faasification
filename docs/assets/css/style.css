@@ -1576,3 +1576,13 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+.icon-button{
+  color: #2c2c2c;
+  border: 2px solid transparent;
+}
+
+.icon-button:hover{
+  color: #76df92;
+  border-bottom: 2px solid #76df92;
+}

@@ -146,6 +146,7 @@
     autoplay: true,
     dots: true,
     loop: true,
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1
@@ -164,6 +165,7 @@
     autoplay: true,
     dots: true,
     loop: true,
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1
